@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.wu-main {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.wu-main h3{
+    text-align: center;
+font: normal normal 600 24px/26px Cormorant SC;
+font-family:  "Poppins", sans-serif;
+letter-spacing: 0px;
+color: #FF3147;
+opacity: 1;
+margin-bottom: 30px;
+}
+
+.wu-main h1{
+    text-align: center;
+font: normal normal bold 45px/65px Cormorant SC;
+font-family:  "Poppins", sans-serif;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+margin-bottom: 20px;
+}
+
+.wu-card-container {
+  margin: 0 auto;
+  width: 90%;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  /* padding-left: 20px; */
+}
+
+.wu-card {
+  background: #fff;
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 250px;
+  text-align: left;
+}
+
+.wu-card-logo {
+  width: 100px;
+  height: 70px;
+  margin-bottom: 10px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.wu-card h4 {
+  text-align: left;
+  font: normal normal medium 80px Poppins, sans-serif;
+font-family:  "Poppins", sans-serif;
+
+  letter-spacing: 2px;
+  color: #000000;
+  opacity: 1;
+  margin: 10px 0;
+}
+
+.wu-card p {
+  text-align: left;
+  font: normal normal normal 16px Poppins, sans-serif;
+font-family:  "Poppins", sans-serif;
+
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 85%;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .wu-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .wu-card {
+    width: 100%;
+  }
+}

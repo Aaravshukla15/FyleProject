@@ -1,0 +1,148 @@
+/* General styling */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+/* Left section styling */
+.home-left {
+  flex: 0 0 62%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.home-stitle {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ff3147;
+  font-weight: 500;
+  font: normal normal 600 30px/110px Cormorant SC;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-title {
+  font-size: 3.8rem;
+  margin-bottom: 20px;
+  font: normal normal bold 60px/80px Cormorant SC;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-para {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  line-height: 1.4;
+  width: 70%;
+  text-align: justify;
+  font: normal normal normal 16px/30px Poppins;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  width: 160px;
+  background-color: #ff3147; /* Light pink color */
+  border: 1px solid #ff3147;
+  border-radius: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: aliceblue;
+}
+
+button:hover {
+  background-color: #ff3147;
+  border: 1px solid #ff3147;
+}
+
+/* Right section styling */
+.home-right {
+  flex: 0 0 38%;
+  display: flex;
+  margin-top: 50px;
+}
+
+.home-right img {
+  max-width: 90%;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .home {
+    flex-direction: column;
+    padding: 10px; /* Reduce padding */
+  }
+
+  .home-left, .home-right {
+    flex: 0 0 100%;
+  }
+
+  .home-left {
+    order: 2;
+    margin-top: 20px; /* Adjust margin for better spacing */
+  }
+
+  .home-right {
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-para {
+    font-size: 0.9rem;
+    width: 100%; /* Adjust width to 100% for better alignment */
+    margin-bottom: 30px; /* Reduce margin */
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
+
+  .home-para {
+    font-size: 0.85rem;
+    margin-bottom: 5px; /* Further reduce margin */
+  }
+
+  button {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding: 8px; /* Further reduce padding */
+  }
+
+  .home-title {
+    font-size: 1.5rem;
+    margin-bottom: 2px; /* Reduce margin */
+  }
+
+  .home-para {
+    font-size: 0.8rem;
+    width: 100%; /* Ensure full width for better alignment */
+    margin-bottom: 5px; /* Reduce margin */
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+}

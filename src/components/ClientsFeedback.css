@@ -1,0 +1,58 @@
+/* ClientsFeedback.css */
+
+.cf-main {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.cf-sh {
+  font-size: 20px;
+  letter-spacing: 0px;
+color: #FF3147;
+text-transform: uppercase;
+}
+
+.cf-hh {
+  font-size: 36px;
+  letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+  margin: 25px 0;
+}
+
+.cf-p {
+  font-size: 1rem;
+  color: #495057;
+  line-height: 1.5;
+  margin: 15px 0 ;
+}
+
+.cf-pp{letter-spacing: 0px;
+color: #FF3147;
+opacity: 1;
+font-weight: bold;}
+
+.cf-pp span {
+ font-weight: 300;
+    letter-spacing: 0px;
+color: #808080;
+opacity: 1;
+
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .cf-sh {
+    font-size: 1.25rem;
+  }
+
+  .cf-hh {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+}
